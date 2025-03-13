@@ -59,7 +59,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-  E:\Mad\Food App\mad_project\Assets\img
+   - assets\img
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -75,16 +75,18 @@ flutter:
   # fonts:
   #   - family: Schyler
   fonts:
-         - asset: E:\Mad\Food App\mad_project\Assets\Font\Metropolis-Regular.otf
-         - asset: E:\Mad\Food App\mad_project\Assets\Font\Metropolis-Medium.otf
+    - family: Metropolis
+      fonts:
+         - asset: assets\font\Metropolis-Regular.otf
+
+         - asset: assets\font\Metropolis-Medium.otf
             weight: 500
-         - asset: E:\Mad\Food App\mad_project\Assets\Font\Metropolis-Bold.otf
+         - asset: assets\font\Metropolis-Bold.otf
             weight: 700
-         - asset: E:\Mad\Food App\mad_project\Assets\Font\Metropolis-ExtraBold.otf
+         - asset: assets\font\Metropolis-ExtraBold.otf
             weight: 800
-         - asset: E:\Mad\Food App\mad_project\Assets\Font\Metropolis-SemiBold.otf
-           style: italic
-             - family: Trajan Pro
+         - asset: assets\font\Metropolis-SemiBold.otf
+            weight: 600
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
